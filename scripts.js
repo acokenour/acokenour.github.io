@@ -3,7 +3,7 @@
 const authEndpoint = 'https://accounts.spotify.com/authorize';
 const clientId = "ec22011ce91f40adad38da393e3c0505";
 const clientSecret = "68c0f043ed7a4644a9a40f4a0146a576";
-const redirectUri = 'http://localhost:3000/success.html';
+const redirectUri = 'https://andrews-newsletter-fcb17c.beehiiv.com';
 const scopes = [
  'user-read-email',
  'user-read-private',
