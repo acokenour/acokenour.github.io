@@ -1,10 +1,8 @@
-import 'dotenv'
 
-require('dotenv').config()
 // Define the Spotify authorization endpoint, client ID, and redirect URI
 const authEndpoint = 'https://accounts.spotify.com/authorize';
-const clientId = process.env.SPOTIFY_CLIENT_ID;
-const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
+const clientId = "ec22011ce91f40adad38da393e3c0505";
+const clientSecret = "68c0f043ed7a4644a9a40f4a0146a576";
 const redirectUri = 'http://localhost:3000/success.html';
 const scopes = [
  'user-read-email',
