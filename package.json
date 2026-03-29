@@ -1,5 +1,15 @@
 {
+  "name": "andrew-cokenour-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node esbuild.js",
+    "dev": "node esbuild.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "typescript": "^5.4.0"
+  },
   "dependencies": {
-    "@chenglou/pretext": "^0.0.3"
+    "@chenglou/pretext": "github:chenglou/pretext"
   }
 }
