@@ -1,4 +1,4 @@
-import { prepareWithSegments, layoutWithLines } from "./vendor/pretext/src/index.js";
+import { prepareWithSegments, layoutWithLines } from "./vendor/pretext/src/layout.js";
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 
@@ -192,7 +192,7 @@ function buildDOM(): {
     zIndex: "5",
     userSelect: "none",
   });
-  subtitleEl.textContent = "// Personal Interface //";
+  subtitleEl.textContent = "Hello :)";
 
   // Unit selector row
   const selectorRow = document.createElement("div");
