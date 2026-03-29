@@ -2469,7 +2469,7 @@
       zIndex: "5",
       userSelect: "none"
     });
-    subtitleEl.textContent = "// Personal Interface //";
+    subtitleEl.textContent = "Hello :)";
     const selectorRow = document.createElement("div");
     applyStyles(selectorRow, {
       position: "absolute",
