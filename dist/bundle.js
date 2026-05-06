@@ -2407,6 +2407,7 @@
   function applyStyles(el, styles) {
     Object.assign(el.style, styles);
   }
+  // TODO add changes
   function buildDOM() {
     applyStyles(document.body, {
       margin: "0",
